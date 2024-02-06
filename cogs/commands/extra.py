@@ -382,7 +382,7 @@ Threads : {len(guild.threads)}
     embed.add_field(
       name="**__Boost Status__**",
       value=
-      f"Level : {guild.premium_tier} [<:02boost:1075394397669171280> {guild.premium_subscription_count} Boosts ]\nBooster Role : {guild.premium_subscriber_role.mention if guild.premium_subscriber_role else 'None'}",
+      f"Level : {guild.premium_tier} [<a:BOOST:1203834623193518241> {guild.premium_subscription_count} Boosts ]\nBooster Role : {guild.premium_subscriber_role.mention if guild.premium_subscriber_role else 'None'}",
       inline=False)
     embed.add_field(name=f"**__Server Roles [ {len(guild.roles) - 1} ]__**",
                     value=f"{roless}",

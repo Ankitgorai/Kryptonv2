@@ -25,66 +25,6 @@
         "premium_guilds": [],
         "expire_at": 1720373544
     },
-    "1077943713348714537": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1691514569
-    },
-    "1014106569945927682": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1691515795
-    },
-    "983718279254278165": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1691545157
-    },
-    "1085806192003137536": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1694149252
-    },
-    "700008707010068512": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1694410043
-    },
-    "947326121786085397": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1691582660
-    },
-    "811360090665254942": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1691584138
-    },
-    "995614811658407976": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1691589218
-    },
-    "707103874497904682": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1691596718
-    },
-    "877809537527189504": {
-        "tier": "Gold Tier",
-        "guild_limit": 10,
-        "premium_guilds": [],
-        "expire_at": 1691602363
-    },
     "947036986550681620": {
         "tier": "Gold Tier",
         "guild_limit": 10,
@@ -720,5 +660,11 @@
         "guild_limit": 10,
         "premium_guilds": [],
         "expire_at": 1697099743
+    },
+    "949243735256993832": {
+        "tier": "Gold Tier",
+        "guild_limit": 10,
+        "premium_guilds": [],
+        "expire_at": 1709678354
     }
 }

@@ -1,5 +1,5 @@
 import os
-os.system("pip install tasksio && pip install httpx && pip install psutil && pip install requests && pip install git+https://github.com/ItzYourHacker/Wavelink")
+os.system("pip install tasksio && pip install httpx && pip install psutil && pip install requests")
 os.system("pip install git+https://github.com/ItzYourHacker/jishaku")
 os.system("pip install git+https://github.com/Rapptz/discord-ext-menus")
 #os.system("pip install git+https://github.com/Rapptz/discord.py")
@@ -87,7 +87,7 @@ async def on_command_completion(context: Context) -> None:
     full_command_name = context.command.qualified_name
     split = full_command_name.split("\n")
     executed_command = str(split[0])
-    hacker = discord.SyncWebhook.from_url("https://discord.com/api/webhooks/1118743634221740052/kQyvWt1u1-BgWKpbYGtq2B5Q35If8RReFBUCxjDROIZCJGtFpbpQAwD-5FUMi7e8DygY")
+    hacker = discord.SyncWebhook.from_url("https://discord.com/api/webhooks/1203844272298917939/MdG3kAJm4uqwFiwM6_VFlNUJ4S9JESVcJ1ojMAAJ9i5vLD713bLqCDNIE3R1lxUY-4lt")
     if not context.message.content.startswith("."):
         pcmd = f"`.{context.message.content}`"
     else:
@@ -172,7 +172,7 @@ async def main():
         os.system("clear")
         await client.load_extension("cogs")
         await client.load_extension("jishaku")
-        tkn = "OTA2MDg1NTc4OTA5NTQ4NTU0.GY8nds.JJ-k2ckUpGokqxdvbwlgJwmklthFvzqLR0qcwI"
+        tkn = "MTIwMjI4MDQ0Njg3NzI1Nzc0MA.GmK-gc.VG0fGCEu2ges1DXD1IGDPTf9VL-q1Z3BE2ijEs"
         await client.start(tkn)
 
 if __name__ == "__main__":

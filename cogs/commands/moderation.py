@@ -696,7 +696,7 @@ class Moderation(commands.Cog):
   @commands.hybrid_command(name="mute",
                            description="Timeouts someone for specific time.",
                            usage="mute <member> <time>",
-                           aliases=["timeout", "stfu"])
+                           aliases=["chup", "stfu"])
   @commands.cooldown(1, 20, commands.BucketType.member)
   @commands.max_concurrency(1, per=commands.BucketType.default, wait=False)
   @commands.guild_only()
@@ -1066,7 +1066,7 @@ class Moderation(commands.Cog):
   @commands.hybrid_command(name="ban",
                             help=
     "Somebody is breaking rules again and again | ban him from the server as punishment",
-    usage="ban [member]", aliases=["fuckban", "hackban"])
+    usage="ban [member]", aliases=["fuckban", "maachuda"])
   @commands.cooldown(1, 10, commands.BucketType.member)
   @commands.max_concurrency(1, per=commands.BucketType.default, wait=False)
   @commands.guild_only()

@@ -9184,6 +9184,14 @@
             "bypassrole": null,
             "bypassuser": [],
             "commands": []
+        },
+        "911967423261982790": {
+            "channel": [],
+            "role": null,
+            "user": [],
+            "bypassrole": null,
+            "bypassuser": [],
+            "commands": []
         }
     }
 }

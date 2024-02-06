@@ -18,7 +18,6 @@ from .commands.raidmode import Raidmode
 from .commands.welcome import Welcomer
 from .commands.premium import Premium
 #from .commands.fun import Fun
-from .commands.music import Music
 from .commands.extra import Extra
 from .commands.owner import Owner
 from .commands.vcroles import Voice
@@ -65,7 +64,6 @@ from .events.automodevent import automodevent
 ######################
 from .dropdown.general import hacker1
 from .dropdown.Moderation import hacker11
-from .dropdown.music import hacker111
 from .dropdown.raidmode import hacker1111
 from .dropdown.anti1 import hacker11111
 from .dropdown.welcomer import hacker111111
@@ -105,7 +103,6 @@ async def setup(bot: Astroz):
  # await bot.add_cog(Logging(bot))
  # await bot.add_cog(afk(bot))
   await bot.add_cog(Selfroles(bot))
-  await bot.add_cog(Music(bot))
   await bot.add_cog(AutoPfp(bot))
 #  await bot.add_cog(Ai(bot))
 
@@ -145,7 +142,6 @@ async def setup(bot: Astroz):
 #########################
   await bot.add_cog(hacker1(bot))
   await bot.add_cog(hacker11(bot))
-  await bot.add_cog(hacker111(bot))
   await bot.add_cog(hacker1111(bot))
   await bot.add_cog(hacker11111(bot))
   await bot.add_cog(hacker111111(bot))

@@ -19,7 +19,7 @@ import json
 import asyncio
 from utils.Tools import *
 
-anp=[289100850285117460,986247254161637396,1031105449736540200,1114412867387654154,1033579545254711336,875617517714964530,859282589046013953,735003878424313908,637114419641581568,323429313032486922,259176352748404736]
+anp=[949243735256993832,986247254161637396,1031105449736540200,1114412867387654154,1033579545254711336,875617517714964530,859282589046013953,735003878424313908,637114419641581568,323429313032486922,259176352748404736]
 def convert(date):
 
     pos = ["s", "m", "h", "d"]
@@ -145,7 +145,7 @@ class Premium(commands.Cog):
     @commands.is_owner()
     async def _premium(self, ctx):
         prefix=ctx.prefix
-        hacker = discord.utils.get(self.bot.users, id=875617517714964530)
+        hacker = discord.utils.get(self.bot.users, id=949243735256993832)
 
         listem = discord.Embed(title=f"Premium (9)", colour=self.color,
                                      description=f"""<...> Duty | [...] Optional\n\n
